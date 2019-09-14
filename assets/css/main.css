@@ -23,11 +23,12 @@
   border: none;
   border-radius: 0 10px 10px 0;
   background-color: rgba(129, 126, 127, .7);
+  overflow: hidden;
 }
 .slider__button::before {
   content: '';
-  border: 10px solid transparent;
-  border-right: 10px solid rgba(255, 255, 255, .7);
+  border: 15px solid transparent;
+  border-right: 15px solid rgba(255, 255, 255, .7);
   position: absolute;
   top: 50%;
   left: 25%;
@@ -47,10 +48,9 @@
   transform: translateY(-50%);
 }
 .right::before {
-  border: 10px solid transparent;
-  border-left: 10px solid rgba(255, 255, 255, .7);
+  border: 15px solid transparent;
+  border-left: 15px solid rgba(255, 255, 255, .7);
   left: 75%;
-  overflow: hidden;
 }
 .page-navigation {
   padding-bottom: 5px;
